@@ -1,0 +1,284 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+.section{
+  padding:120px 0 ;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1158px;
+  padding-left:15px;
+  padding-right:15px;
+  margin: 0 auto;
+}
+
+header{
+  border-bottom: 1px solid #e7e9fc;
+  margin-bottom: 10px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+nav, ul{
+  display:flex;
+}
+
+.header-navigation{
+  align-items: center;
+}
+
+span {
+  color: #2e2f42;
+}
+
+.heading-third{
+  margin-bottom: 8px;
+}
+
+.logo {
+  color: #4d5ae5;
+  padding:24px 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.header-list{
+  align-self:center;
+  gap: 40px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  margin-left: auto;
+  padding:24px 0;
+}
+
+.address-list{
+  gap:40px;
+}
+
+nav li,
+.email,
+.footer-studio,
+.studio_hyper {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0 ;
+}
+
+.studio_hyper:hover {
+  color: #404bbf;
+}
+
+.studio_hyper:focus {
+  color: #404bbf;
+}
+
+.email-tel {
+  color: #434455;
+}
+
+.email-tel:hover {
+  color: #404bbf;
+}
+
+.email-tel:focus {
+  color: #404bbf;
+}
+
+.f-sel {
+  background-color: #2e2f42;
+  padding: 188px 0 ;
+}
+
+.button-service {
+  font-size: 16px;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  margin: 48px auto 0 auto;
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+.button-service:hover,
+.button-service:focus {
+  background-color: #404bbf;
+}
+
+.heading_first {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  max-width:496px;
+}
+
+li h3,
+.mark {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+li p,
+.designer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.members-sel {
+  background-color: #F4F4FD;
+}
+
+.member-box{
+  gap: 24px;
+}
+
+.member{
+  text-align: center;
+}
+
+.heading-second {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom:72px;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
+
+
+.description-box{
+  gap: 24px;
+}
+
+.description-box-elem{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.member-sel li {
+  text-align: center;
+}
+
+.box-member{
+  background-color: #FFFFFF;    
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.description-member{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px 0;
+}
+
+.occupation{
+  text-align: center;
+}
+
+.portfolio-box{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+
+.app-image{
+  display: block;
+}
+
+.description-app{
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 0 32px 16px;
+  margin: 0;
+  padding: 32px 16px;
+}
+
+footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
+
+.footer-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  width:264px;
+}
+
+.footer-logo{
+  display:inline-block;
+  margin-bottom: 16px;
+}
