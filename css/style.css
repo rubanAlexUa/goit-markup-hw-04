@@ -227,7 +227,7 @@ li p,
 }
 
 .svg-elem {
-  fill: #111;
+  fill: #f4f4fd;
 }
 
 .social-network-hyper {
@@ -242,8 +242,9 @@ li p,
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-hyper:hover {
-  background-color: #31d0aa;
+.social-network-hyper:hover,
+.social-network-hyper:focus {
+  background-color: #404bbf;
 }
 
 .members-sel {
@@ -262,6 +263,7 @@ li p,
   padding: 32px 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -397,9 +399,14 @@ footer {
   margin-bottom: 16px;
 }
 
+.info-footer {
+  margin-right: 120px;
+}
+
 .footer-full-info {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .heading-media {
@@ -407,6 +414,13 @@ footer {
   margin-bottom: 16px;
 }
 
-.footer-media {
-  margin-left: 120px;
+.footer-par {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-social-networks {
+  gap: 16px;
 }
