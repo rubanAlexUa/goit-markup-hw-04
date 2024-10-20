@@ -430,6 +430,6 @@ footer {
 }
 
 .footer-hyper-network:hover,
-.footer-hyper-network:hover {
+.footer-hyper-network:focus {
   background-color: #31d0aa;
 }
